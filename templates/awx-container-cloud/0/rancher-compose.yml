@@ -12,9 +12,9 @@ services:
   rabbitmq:
     scale: 1
     start_on_create: true
-  awx_web:
+  awxweb:
     scale: 1
     start_on_create: true
-  awx_task:
+  awxtask:
     scale: 1
     start_on_create: true
